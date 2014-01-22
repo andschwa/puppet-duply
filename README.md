@@ -1,12 +1,13 @@
 # Duply Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/andschwa/puppet-duply.png?branch=master)](https://travis-ci.org/andschwa/puppet-duply)
+
 Installs Duply and its necessary dependencies:
 
 * `duplicity`
 * `gnupg`
 * `python`
 
-[![Build Status](https://travis-ci.org/andschwa/puppet-duply.png?branch=master)](https://travis-ci.org/andschwa/puppet-duply)
 
 ## Usage
 
@@ -22,6 +23,12 @@ include duply
 * `gnupg` [andschwa source](https://github.com/andschwa/puppet-gnupg)
 * `python` [andschwa fork](https://github.com/andschwa/puppet-python)
   with 2.7.6 update
+
+## To-do
+
+* Setup profile resource from template
+* /Maybe/ setup backup cron jobs
+* /Maybe/ install CloudFiles backend
 
 ## Development
 
