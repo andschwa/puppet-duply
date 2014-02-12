@@ -1,5 +1,5 @@
 ---
-script: "./script/cibuild"
+script: "travis_retry ./script/cibuild"
 gemfile: "this/does/not/exist"
 rvm:
   - "2.0.0"
